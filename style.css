@@ -1,0 +1,111 @@
+body {
+    background: #74c474;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    margin: 90px auto;
+    background: white;
+    width: 400px;
+    height: 400px;
+    box-shadow:
+            0 0 0 7px #60B88D,
+            0 0 0 14px #90CDAF,
+            0 0 0 21px #BFE3D1;
+    position: relative;
+}
+.sub {
+    font-size: 0;
+}
+section {
+    display: inline-block;
+    height: 50px;
+}
+section div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: black;
+}
+.one div {
+    margin-left: 50px;
+    position: relative;
+}
+.two div {
+    margin-left: 50px;
+    position: relative;
+}
+.two div:first-child {
+    margin: 0;
+}
+.black {
+    position: absolute;
+    width: 67%;
+    height: 67%;
+    background: url("media/black.png"), center ;
+    background-size: cover;
+    margin-left: 8px;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+.white {
+    position: absolute;
+    width: 67%;
+    height: 67%;
+    background: url("media/white.png"), center;
+    background-size: cover;
+    margin-left: 8px;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+.white:hover {
+    box-shadow: 0 0 10px 5px rgba(194, 0, 194, 0.68)
+}
+.black:hover {
+    box-shadow: 0 0 10px 5px rgba(194, 0, 194, 0.68)
+}
+.form {
+    position: absolute;
+    left: -70px;
+}
+.form div {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+.form fieldset {
+    border: none;
+}
+.form2 {
+    position: absolute;
+    left: 420px;
+}
+.form2 div {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+.form2 fieldset {
+    border: none;
+}
+.span {
+    position: absolute;
+    top: 430px;
+    font-size: 22px;
+    letter-spacing: 15px;
+    left: 15px;
+}
+.span2 {
+    position: absolute;
+    top: -50px;
+    font-size: 22px;
+    letter-spacing: 15px;
+    left: 15px;
+}
